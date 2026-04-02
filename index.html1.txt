@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS Scalable Web Application</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+        }
+        .container {
+            margin-top: 80px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #2a5298;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>AWS Scalable Web Application</h1>
+            <p>This application demonstrates a highly available and scalable cloud architecture.</p>
+
+            <h3>Architecture Components:</h3>
+            <ul>
+                <li>Custom Virtual Private Cloud (VPC)</li>
+                <li>Application Load Balancer</li>
+                <li>Auto Scaling Group</li>
+                <li>Private EC2 Instances</li>
+            </ul>
+
+            <div class="footer">
+                Request processed successfully
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
